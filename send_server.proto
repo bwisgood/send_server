@@ -1,0 +1,60 @@
+syntax = "proto3";
+package send_server;
+
+
+service SendService {
+    rpc SendMessage (SendMessageParam) returns (SendMessageResponse) {
+    };
+    rpc SendTemplateMessage (SendTemplateMessageParam) returns (SendTemplateMessageResponse) {
+    };
+    rpc GetLawyerletter (GetLawyerLetterParam) returns (GetLawyerLetterRespnse) {
+    };
+
+}
+
+
+
+message SendMessageParam {
+    // 发送短信需要的参数
+    int32 user_id = 1;
+    string message = 2;
+}
+
+message SendTemplateMessageParam {
+    //　 发送模板消息需要的参数
+
+    string template_id = 1;
+    int32 user_id = 2;
+    string page_path = 3;
+    string id_json = 4;
+
+}
+
+
+message GetLawyerLetterParam {
+    // 生成律师函需要的参数
+    int32 bill_id = 1;
+}
+
+message SendMessageResponse {
+    // 发送短信的响应对象
+    int32 code = 1;
+    string msg = 2;
+    string data = 3;
+}
+
+
+message SendTemplateMessageResponse {
+    //　发送模板消息的响应对象
+    int32 code = 1;
+    string msg = 2;
+    string data = 3;
+}
+
+message GetLawyerLetterRespnse {
+    //　生成律师函的响应对象
+    int32 code = 1;
+    string msg = 2;
+    string data = 3;
+}
+
