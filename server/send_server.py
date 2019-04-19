@@ -5,6 +5,8 @@ import json
 import redis
 
 import os
+import sys
+sys.path.append('../')
 
 from concurrent import futures
 from datetime import datetime
