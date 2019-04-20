@@ -8,7 +8,7 @@ import grpc
 import json
 from send_server_util import send_server_pb2, send_server_pb2_grpc
 
-_HOST = '127.0.0.1'
+_HOST = '0.0.0.0'
 _PORT = '19999'
 
 
