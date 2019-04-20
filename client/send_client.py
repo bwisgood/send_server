@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import sys
+sys.path.append('../')
+
+
 import grpc
 import json
 from send_server_util import send_server_pb2, send_server_pb2_grpc
