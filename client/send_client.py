@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append('../')
 
+sys.path.append('../')
 
 import grpc
 import json
@@ -110,14 +110,14 @@ def get_perform(bill_id):
 
 
 if __name__ == '__main__':
-    get_perform(3)
-    # sen_message_test()
-    # debt_remind_test()
-    # repair_remind_test()
-    # emergency_remind_test()
-    # work_remind_test()
+    # get_perform(3)
+    sen_message_test()
+    debt_remind_test()
+    repair_remind_test()
+    emergency_remind_test()
+    work_remind_test()
     # feedback_remind_test()
-
+    #
     # feedback_remind_test()
 
 
