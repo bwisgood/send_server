@@ -7,7 +7,7 @@ import redis
 import os
 import sys
 sys.path.append('../')
-sys.path.append('/root/send_server')
+# sys.path.append('/root/send_server')
 
 from concurrent import futures
 from datetime import datetime
@@ -58,8 +58,10 @@ class WxUtils(object):
         response_data = response.json()
 
         access_token = response_data.get("access_token")
+        if access_token:
+            return None
 
-        redis_cli.setex("mp_access_token_{}".format(company_id), 7100, access_token)
+        redis_cli.setex("mp_access_token_{}".format(company_id), 7100, str(access_token))
 
         return access_token if access_token else None
 
