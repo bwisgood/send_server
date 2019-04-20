@@ -8,7 +8,8 @@ import grpc
 import json
 from send_server_util import send_server_pb2, send_server_pb2_grpc
 
-_HOST = '0.0.0.0'
+# _HOST = '0.0.0.0'
+_HOST = '39.106.101.198'
 _PORT = '19999'
 
 
@@ -103,6 +104,8 @@ def feedback_remind_test(user_id=None, community_feedback_id=None):
 
 def get_perform(bill_id):
     """获取律师函"""
+    if not bill_id:
+        bill_id = 5
     with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
         client = send_server_pb2_grpc.SendServiceStub(channel=channel)
         response = client.GetLawyerletter(send_server_pb2.GetLawyerLetterParam(bill_id=bill_id))

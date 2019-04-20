@@ -7,6 +7,7 @@ import redis
 import os
 import sys
 sys.path.append('../')
+sys.path.append('/root/send_server')
 
 from concurrent import futures
 from datetime import datetime
