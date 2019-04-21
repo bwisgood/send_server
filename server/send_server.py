@@ -499,6 +499,7 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
             return send_server_pb2.GetLawyerLetterRespnse()
         now = datetime.strftime(datetime.now(), "%Y%m%d%H%M%S")
         base = os.path.dirname(os.path.dirname(__file__))
+        print(base)
         filename = "".join([user_name or "N", now, str(bill_id), ".docx"])
         temp_path = base + "/static/律师函.docx"
         to_path = base + "/static/generated/{}".format(filename)
