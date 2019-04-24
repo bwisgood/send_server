@@ -30,9 +30,9 @@
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="ai_community_v3@rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com" uuid="bc005c4f-d23d-4c30-89e4-f4b5995bb9d2">
-      <driver-ref>mysql</driver-ref>
+      <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com:3306/ai_community_v3</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />

@@ -58,7 +58,7 @@ class WxUtils(object):
         response_data = response.json()
 
         access_token = response_data.get("access_token")
-        if access_token:
+        if not access_token:
             return None
 
         redis_cli.setex("mp_access_token_{}".format(company_id), 7100, str(access_token))
@@ -473,6 +473,7 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         resp_dict = json.loads(send_resp)
         if resp_dict.get("errmsg") != "ok":
             errmsg = resp_dict.get("errmsg")
+            print(errmsg)
             errmsg = "发送失败"
             code = RET.SERVERERR
             print("发送失败")

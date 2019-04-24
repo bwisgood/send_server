@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="" />
+    <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/send_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/send_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/send_server.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,143 +28,121 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="ai_community_v3@rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ai_community_v3@rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ai_community_v3@rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com" type="feb32156:DbDataSourceImpl" />
+        <item name="ai_community_v3: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="jdbc:mysql://192.168.1.155 :3306/ai_community_v3.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="send_server.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/send_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+            <state relative-caret-position="269">
+              <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#2029#2847#0" expanded="false" />
-                <element signature="e#3171#4376#0" expanded="false" />
-                <element signature="e#3171#3261#1" expanded="false" />
-                <element signature="e#3270#3431#1" expanded="false" />
-                <element signature="e#3457#3822#0" expanded="false" />
-                <element signature="e#3877#4355#0" expanded="false" />
-                <element signature="e#3948#4003#0" expanded="false" />
-                <element signature="e#4029#4109#0" expanded="false" />
-                <element signature="e#4135#4186#0" expanded="false" />
-                <element signature="e#4212#4261#0" expanded="false" />
-                <element signature="e#4285#4344#0" expanded="false" />
-                <element signature="e#4447#4758#0" expanded="false" />
-                <element signature="e#4447#4537#1" expanded="false" />
-                <element signature="e#4546#4745#1" expanded="false" />
-                <element signature="e#4818#5008#0" expanded="false" />
-                <element signature="e#4818#4896#1" expanded="false" />
-                <element signature="e#4905#5008#1" expanded="false" />
-                <element signature="e#5071#5325#0" expanded="false" />
-                <element signature="e#5071#5150#1" expanded="false" />
-                <element signature="e#5159#5325#1" expanded="false" />
-                <element signature="e#5380#6630#0" expanded="false" />
-                <element signature="e#5380#5456#1" expanded="false" />
-                <element signature="e#5465#5664#1" expanded="false" />
-                <element signature="e#5690#6006#0" expanded="false" />
-                <element signature="e#6050#6080#0" expanded="false" />
-                <element signature="e#6101#6605#0" expanded="false" />
-                <element signature="e#6158#6209#0" expanded="false" />
-                <element signature="e#6235#6286#0" expanded="false" />
-                <element signature="e#6312#6368#0" expanded="false" />
-                <element signature="e#6394#6444#0" expanded="false" />
-                <element signature="e#6470#6520#0" expanded="false" />
-                <element signature="e#6544#6593#0" expanded="false" />
-                <element signature="e#6691#6990#0" expanded="false" />
-                <element signature="e#6691#6767#1" expanded="false" />
-                <element signature="e#6776#6977#1" expanded="false" />
-                <element signature="e#7069#8807#0" expanded="false" />
-                <element signature="e#7069#7143#1" expanded="false" />
-                <element signature="e#7152#7285#1" expanded="false" />
-                <element signature="e#7318#7804#0" expanded="false" />
-                <element signature="e#7339#7758#0" expanded="false" />
-                <element signature="e#7844#8316#0" expanded="false" />
-                <element signature="e#7865#8270#0" expanded="false" />
-                <element signature="e#8368#8787#0" expanded="false" />
-                <element signature="e#8391#8437#0" expanded="false" />
-                <element signature="e#8463#8515#0" expanded="false" />
-                <element signature="e#8541#8624#0" expanded="false" />
-                <element signature="e#8650#8704#0" expanded="false" />
-                <element signature="e#8728#8776#0" expanded="false" />
-                <element signature="e#8865#9100#0" expanded="false" />
-                <element signature="e#8865#8939#1" expanded="false" />
-                <element signature="e#8948#9087#1" expanded="false" />
-                <element signature="e#9155#9422#0" expanded="false" />
-                <element signature="e#9155#9231#1" expanded="false" />
-                <element signature="e#9240#9409#1" expanded="false" />
-                <element signature="e#9481#10651#0" expanded="false" />
-                <element signature="e#9481#9558#1" expanded="false" />
-                <element signature="e#9567#9761#1" expanded="false" />
-                <element signature="e#9787#10081#0" expanded="false" />
-                <element signature="e#10135#10631#0" expanded="false" />
-                <element signature="e#10191#10242#0" expanded="false" />
-                <element signature="e#10268#10316#0" expanded="false" />
-                <element signature="e#10342#10395#0" expanded="false" />
-                <element signature="e#10421#10477#0" expanded="false" />
-                <element signature="e#10503#10586#0" expanded="false" />
-                <element signature="e#11329#11436#0" expanded="false" />
-                <element signature="e#12622#12769#0" expanded="false" />
-                <element signature="e#12874#12882#0" expanded="false" />
-                <element signature="e#14940#15059#0" expanded="false" />
+                <element signature="e#2029#2847#0" />
+                <element signature="e#3171#4376#0" />
+                <element signature="e#3171#3261#1" />
+                <element signature="e#3270#3431#1" />
+                <element signature="e#3457#3822#0" />
+                <element signature="e#3877#4355#0" />
+                <element signature="e#3948#4003#0" />
+                <element signature="e#4029#4109#0" />
+                <element signature="e#4135#4186#0" />
+                <element signature="e#4212#4261#0" />
+                <element signature="e#4285#4344#0" />
+                <element signature="e#4447#4758#0" />
+                <element signature="e#4447#4537#1" />
+                <element signature="e#4546#4745#1" />
+                <element signature="e#4818#5008#0" />
+                <element signature="e#4818#4896#1" />
+                <element signature="e#4905#5008#1" />
+                <element signature="e#5071#5325#0" />
+                <element signature="e#5071#5150#1" />
+                <element signature="e#5159#5325#1" />
+                <element signature="e#5380#6630#0" />
+                <element signature="e#5380#5456#1" />
+                <element signature="e#5465#5664#1" />
+                <element signature="e#5690#6006#0" />
+                <element signature="e#6050#6080#0" />
+                <element signature="e#6101#6605#0" />
+                <element signature="e#6158#6209#0" />
+                <element signature="e#6235#6286#0" />
+                <element signature="e#6312#6368#0" />
+                <element signature="e#6394#6444#0" />
+                <element signature="e#6470#6520#0" />
+                <element signature="e#6544#6593#0" />
+                <element signature="e#6691#6990#0" />
+                <element signature="e#6691#6767#1" />
+                <element signature="e#6776#6977#1" />
+                <element signature="e#7069#8807#0" />
+                <element signature="e#7069#7143#1" />
+                <element signature="e#7152#7285#1" />
+                <element signature="e#7318#7804#0" />
+                <element signature="e#7339#7758#0" />
+                <element signature="e#7844#8316#0" />
+                <element signature="e#7865#8270#0" />
+                <element signature="e#8368#8787#0" />
+                <element signature="e#8391#8437#0" />
+                <element signature="e#8463#8515#0" />
+                <element signature="e#8541#8624#0" />
+                <element signature="e#8650#8704#0" />
+                <element signature="e#8728#8776#0" />
+                <element signature="e#8865#9100#0" />
+                <element signature="e#8865#8939#1" />
+                <element signature="e#8948#9087#1" />
+                <element signature="e#9155#9422#0" />
+                <element signature="e#9155#9231#1" />
+                <element signature="e#9240#9409#1" />
+                <element signature="e#9481#10651#0" />
+                <element signature="e#9481#9558#1" />
+                <element signature="e#9567#9761#1" />
+                <element signature="e#9787#10081#0" />
+                <element signature="e#10135#10631#0" />
+                <element signature="e#10191#10242#0" />
+                <element signature="e#10268#10316#0" />
+                <element signature="e#10342#10395#0" />
+                <element signature="e#10421#10477#0" />
+                <element signature="e#10503#10586#0" />
+                <element signature="e#11329#11436#0" />
+                <element signature="e#12622#12769#0" />
+                <element signature="e#12874#12882#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="489">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_server.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="send_client.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/send_client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-              <folding>
-                <element signature="e#851#1380#0" expanded="false" />
-                <element signature="e#1034#1072#0" expanded="false" />
-                <element signature="e#1481#2152#0" expanded="false" />
-                <element signature="e#1576#2112#0" expanded="false" />
-                <element signature="e#1761#1800#0" expanded="false" />
-                <element signature="e#2219#2906#0" expanded="false" />
-                <element signature="e#2317#2866#0" expanded="false" />
-                <element signature="e#2505#2548#0" expanded="false" />
-                <element signature="e#2963#3630#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -180,6 +167,7 @@
       <find>Model</find>
       <find>models_pb2</find>
       <find>db.</find>
+      <find>发送失败</find>
     </findStrings>
     <replaceStrings>
       <replace>empelate</replace>
@@ -187,6 +175,9 @@
       <replace>Base</replace>
       <replace>send_server_pb2</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -209,76 +200,49 @@
         <option value="$PROJECT_DIR$/requirment.txt" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
-        <option value="$PROJECT_DIR$/server/send_server.py" />
         <option value="$PROJECT_DIR$/client/send_client.py" />
+        <option value="$PROJECT_DIR$/server/send_server.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="2291" />
-    <option name="height" value="1263" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
+    <option name="width" value="2289" />
+    <option name="height" value="1259" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="send_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="send_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="send_server" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ai_community_socks" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J 8/8.0.15/mysql-connector-java-8.0.15.jar" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -286,177 +250,19 @@
       <recent name="$PROJECT_DIR$/send_server_util" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.send_client">
-    <configuration default="false" name="send_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/send_server.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="send_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/send_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="sadad" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/sadad.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="doc_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/send_server_util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="send_server" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.send_server">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -477,113 +283,120 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
+    <configuration name="doc_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="send_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/send_server_util" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
+    <configuration name="sadad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="send_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/sadad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
+    <configuration name="send_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="send_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/send_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
+    <configuration name="send_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="send_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/server" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="send_server" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server/send_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Python.send_server" />
-      <item index="1" class="java.lang.String" itemvalue="Python.send_client" />
-      <item index="2" class="java.lang.String" itemvalue="Python.sadad" />
-      <item index="3" class="java.lang.String" itemvalue="Python.doc_utils" />
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.send_server" />
+      <item itemvalue="Python.send_client" />
+      <item itemvalue="Python.sadad" />
+      <item itemvalue="Python.doc_utils" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.send_client" />
-        <item index="1" class="java.lang.String" itemvalue="Python.send_server" />
-        <item index="2" class="java.lang.String" itemvalue="Python.doc_utils" />
-        <item index="3" class="java.lang.String" itemvalue="Python.sadad" />
+      <list>
+        <item itemvalue="Python.send_server" />
+        <item itemvalue="Python.send_client" />
+        <item itemvalue="Python.doc_utils" />
+        <item itemvalue="Python.sadad" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -592,60 +405,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555483841019</updated>
+      <workItem from="1555930746674" duration="2343000" />
+      <workItem from="1555991137078" duration="3493000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5836000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="2291" height="1263" extended-state="6" />
-    <editor active="false" />
+    <frame x="67" y="27" width="2289" height="1259" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32848588" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24988884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3001334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39692044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18551631" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329148" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3820628" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3297491" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3309417" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3292683" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.17255253" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="SciView" order="5" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848588" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24988884" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299244" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39692044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24988884" />
+      <window_info id="Structure" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32848588" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32934132" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39692044" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="right" id="Database" order="1" weight="0.3299244" />
+      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,18 +520,10 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/server/send_server.py</url>
-          <line>427</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/server/send_server.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="65" />
+          <line>428</line>
+          <option name="timeStamp" value="64" />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -711,86 +531,28 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="66" />
     </breakpoint-manager>
-    <watches-manager />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/send_server$send_server.coverage" NAME="send_server Coverage Results" MODIFIED="1556073106147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/send_server$send_client.coverage" NAME="send_client Coverage Results" MODIFIED="1555939165872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/send_server_util/models_pb2_grpc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/estate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/bill_modeles.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eee9351f-0e13-4183-8f92-5a2d5da28dc6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.invite_codes">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/models.proto" />
     <entry file="file://$PROJECT_DIR$/server/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/sqlalchemy/sql/elements.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="722" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/sqlalchemy/sql/elements.py" />
     <entry file="file://$PROJECT_DIR$/models/estate_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="126" column="62" lean-forward="false" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
+          <caret line="126" column="62" selection-start-line="126" selection-start-column="62" selection-end-line="126" selection-end-column="62" />
           <folding>
-            <element signature="e#0#23#0" expanded="false" />
+            <element signature="e#0#23#0" />
           </folding>
         </state>
       </provider>
@@ -798,291 +560,48 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cdb1d93-3881-48e1-bf34-cacac949bd76/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.task">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.room">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.bill">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.repair">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.emergency">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.community_feedback">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.room">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_channel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="465" column="0" lean-forward="false" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.mp_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.mp_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/sqlalchemy/sql/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4645">
-          <caret line="451" column="0" lean-forward="false" selection-start-line="451" selection-start-column="0" selection-end-line="451" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task_records">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.taskrecords_position">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task_position">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.bill">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3cdb1d93-3881-48e1-bf34-cacac949bd76/console.sql" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.task" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.user" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.room" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.bill" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.repair" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.emergency" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.community_feedback" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.room" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_channel.py" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.mp_user" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.mp_user" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.user" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/sqlalchemy/sql/functions.py" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task_records" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.taskrecords_position" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.task_position" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.bill" />
     <entry file="file://$PROJECT_DIR$/models/user_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
-          <caret line="87" column="27" lean-forward="false" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
-          <folding />
+          <caret line="87" column="27" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/task_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
-          <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="32" />
-          <folding />
+          <caret line="90" column="32" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/oxml/xmlchemy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="374" column="0" lean-forward="false" selection-start-line="374" selection-start-column="0" selection-end-line="374" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/oxml/ns.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/re.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/oxml/xmlchemy.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/oxml/ns.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docx/api.py" />
     <entry file="file://$PROJECT_DIR$/requirment.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1096,23 +615,16 @@
         <state relative-caret-position="192">
           <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
-            <element signature="e#70#81#0" expanded="false" />
+            <element signature="e#70#81#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docxtpl/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/docxtpl/__init__.py" />
     <entry file="file://$PROJECT_DIR$/server/sadad.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
@@ -1122,31 +634,22 @@
     <entry file="file://$PROJECT_DIR$/models/bill_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
-          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="16" />
-          <folding />
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/console.sql" />
     <entry file="file://$PROJECT_DIR$/send_server_util/send_server_pb2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="325" column="0" lean-forward="false" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
-          <folding />
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/send_server.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="57" column="15" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="15" />
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1154,7 +657,7 @@
     <entry file="file://$PROJECT_DIR$/send_server_util/alioss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -1164,51 +667,77 @@
     <entry file="file://$PROJECT_DIR$/send_server_util/doc_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/ai_community_v3.task">
+    <entry file="dbDummy://dbtable:/e1fc09b5/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/ai_community_v3.task" />
+    <entry file="dbDummy://dbtable:/e1fc09b5/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/ai_community_v3.bill" />
+    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_server.py" />
+    <entry file="das://bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/schema/ai_community_v3/table/amount_bill">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/e1fc09b5/bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/ai_community_v3.bill">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_server.py">
+    <entry file="file://$PROJECT_DIR$/client/send_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1584">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#851#1380#0" />
+            <element signature="e#1034#1072#0" />
+            <element signature="e#1481#2152#0" />
+            <element signature="e#1576#2112#0" />
+            <element signature="e#1761#1800#0" />
+            <element signature="e#2219#2906#0" />
+            <element signature="e#2317#2866#0" />
+            <element signature="e#2505#2548#0" />
+            <element signature="e#2963#3630#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/schema/ai_community_v3/table/area">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/schema/ai_community_v3/table/admin">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/schema/ai_community_v3/table/bai_du_yun_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://bc005c4f-d23d-4c30-89e4-f4b5995bb9d2/schema/ai_community_v3/table/debt">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="489">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -1217,96 +746,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/send_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" column="86" lean-forward="true" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+        <state relative-caret-position="269">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#2029#2847#0" expanded="false" />
-            <element signature="e#3171#4376#0" expanded="false" />
-            <element signature="e#3171#3261#1" expanded="false" />
-            <element signature="e#3270#3431#1" expanded="false" />
-            <element signature="e#3457#3822#0" expanded="false" />
-            <element signature="e#3877#4355#0" expanded="false" />
-            <element signature="e#3948#4003#0" expanded="false" />
-            <element signature="e#4029#4109#0" expanded="false" />
-            <element signature="e#4135#4186#0" expanded="false" />
-            <element signature="e#4212#4261#0" expanded="false" />
-            <element signature="e#4285#4344#0" expanded="false" />
-            <element signature="e#4447#4758#0" expanded="false" />
-            <element signature="e#4447#4537#1" expanded="false" />
-            <element signature="e#4546#4745#1" expanded="false" />
-            <element signature="e#4818#5008#0" expanded="false" />
-            <element signature="e#4818#4896#1" expanded="false" />
-            <element signature="e#4905#5008#1" expanded="false" />
-            <element signature="e#5071#5325#0" expanded="false" />
-            <element signature="e#5071#5150#1" expanded="false" />
-            <element signature="e#5159#5325#1" expanded="false" />
-            <element signature="e#5380#6630#0" expanded="false" />
-            <element signature="e#5380#5456#1" expanded="false" />
-            <element signature="e#5465#5664#1" expanded="false" />
-            <element signature="e#5690#6006#0" expanded="false" />
-            <element signature="e#6050#6080#0" expanded="false" />
-            <element signature="e#6101#6605#0" expanded="false" />
-            <element signature="e#6158#6209#0" expanded="false" />
-            <element signature="e#6235#6286#0" expanded="false" />
-            <element signature="e#6312#6368#0" expanded="false" />
-            <element signature="e#6394#6444#0" expanded="false" />
-            <element signature="e#6470#6520#0" expanded="false" />
-            <element signature="e#6544#6593#0" expanded="false" />
-            <element signature="e#6691#6990#0" expanded="false" />
-            <element signature="e#6691#6767#1" expanded="false" />
-            <element signature="e#6776#6977#1" expanded="false" />
-            <element signature="e#7069#8807#0" expanded="false" />
-            <element signature="e#7069#7143#1" expanded="false" />
-            <element signature="e#7152#7285#1" expanded="false" />
-            <element signature="e#7318#7804#0" expanded="false" />
-            <element signature="e#7339#7758#0" expanded="false" />
-            <element signature="e#7844#8316#0" expanded="false" />
-            <element signature="e#7865#8270#0" expanded="false" />
-            <element signature="e#8368#8787#0" expanded="false" />
-            <element signature="e#8391#8437#0" expanded="false" />
-            <element signature="e#8463#8515#0" expanded="false" />
-            <element signature="e#8541#8624#0" expanded="false" />
-            <element signature="e#8650#8704#0" expanded="false" />
-            <element signature="e#8728#8776#0" expanded="false" />
-            <element signature="e#8865#9100#0" expanded="false" />
-            <element signature="e#8865#8939#1" expanded="false" />
-            <element signature="e#8948#9087#1" expanded="false" />
-            <element signature="e#9155#9422#0" expanded="false" />
-            <element signature="e#9155#9231#1" expanded="false" />
-            <element signature="e#9240#9409#1" expanded="false" />
-            <element signature="e#9481#10651#0" expanded="false" />
-            <element signature="e#9481#9558#1" expanded="false" />
-            <element signature="e#9567#9761#1" expanded="false" />
-            <element signature="e#9787#10081#0" expanded="false" />
-            <element signature="e#10135#10631#0" expanded="false" />
-            <element signature="e#10191#10242#0" expanded="false" />
-            <element signature="e#10268#10316#0" expanded="false" />
-            <element signature="e#10342#10395#0" expanded="false" />
-            <element signature="e#10421#10477#0" expanded="false" />
-            <element signature="e#10503#10586#0" expanded="false" />
-            <element signature="e#11329#11436#0" expanded="false" />
-            <element signature="e#12622#12769#0" expanded="false" />
-            <element signature="e#12874#12882#0" expanded="false" />
-            <element signature="e#14940#15059#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/send_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="121" column="20" lean-forward="false" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-          <folding>
-            <element signature="e#851#1380#0" expanded="false" />
-            <element signature="e#1034#1072#0" expanded="false" />
-            <element signature="e#1481#2152#0" expanded="false" />
-            <element signature="e#1576#2112#0" expanded="false" />
-            <element signature="e#1761#1800#0" expanded="false" />
-            <element signature="e#2219#2906#0" expanded="false" />
-            <element signature="e#2317#2866#0" expanded="false" />
-            <element signature="e#2505#2548#0" expanded="false" />
-            <element signature="e#2963#3630#0" expanded="false" />
+            <element signature="e#2029#2847#0" />
+            <element signature="e#3171#4376#0" />
+            <element signature="e#3171#3261#1" />
+            <element signature="e#3270#3431#1" />
+            <element signature="e#3457#3822#0" />
+            <element signature="e#3877#4355#0" />
+            <element signature="e#3948#4003#0" />
+            <element signature="e#4029#4109#0" />
+            <element signature="e#4135#4186#0" />
+            <element signature="e#4212#4261#0" />
+            <element signature="e#4285#4344#0" />
+            <element signature="e#4447#4758#0" />
+            <element signature="e#4447#4537#1" />
+            <element signature="e#4546#4745#1" />
+            <element signature="e#4818#5008#0" />
+            <element signature="e#4818#4896#1" />
+            <element signature="e#4905#5008#1" />
+            <element signature="e#5071#5325#0" />
+            <element signature="e#5071#5150#1" />
+            <element signature="e#5159#5325#1" />
+            <element signature="e#5380#6630#0" />
+            <element signature="e#5380#5456#1" />
+            <element signature="e#5465#5664#1" />
+            <element signature="e#5690#6006#0" />
+            <element signature="e#6050#6080#0" />
+            <element signature="e#6101#6605#0" />
+            <element signature="e#6158#6209#0" />
+            <element signature="e#6235#6286#0" />
+            <element signature="e#6312#6368#0" />
+            <element signature="e#6394#6444#0" />
+            <element signature="e#6470#6520#0" />
+            <element signature="e#6544#6593#0" />
+            <element signature="e#6691#6990#0" />
+            <element signature="e#6691#6767#1" />
+            <element signature="e#6776#6977#1" />
+            <element signature="e#7069#8807#0" />
+            <element signature="e#7069#7143#1" />
+            <element signature="e#7152#7285#1" />
+            <element signature="e#7318#7804#0" />
+            <element signature="e#7339#7758#0" />
+            <element signature="e#7844#8316#0" />
+            <element signature="e#7865#8270#0" />
+            <element signature="e#8368#8787#0" />
+            <element signature="e#8391#8437#0" />
+            <element signature="e#8463#8515#0" />
+            <element signature="e#8541#8624#0" />
+            <element signature="e#8650#8704#0" />
+            <element signature="e#8728#8776#0" />
+            <element signature="e#8865#9100#0" />
+            <element signature="e#8865#8939#1" />
+            <element signature="e#8948#9087#1" />
+            <element signature="e#9155#9422#0" />
+            <element signature="e#9155#9231#1" />
+            <element signature="e#9240#9409#1" />
+            <element signature="e#9481#10651#0" />
+            <element signature="e#9481#9558#1" />
+            <element signature="e#9567#9761#1" />
+            <element signature="e#9787#10081#0" />
+            <element signature="e#10135#10631#0" />
+            <element signature="e#10191#10242#0" />
+            <element signature="e#10268#10316#0" />
+            <element signature="e#10342#10395#0" />
+            <element signature="e#10421#10477#0" />
+            <element signature="e#10503#10586#0" />
+            <element signature="e#11329#11436#0" />
+            <element signature="e#12622#12769#0" />
+            <element signature="e#12874#12882#0" />
           </folding>
         </state>
       </provider>
