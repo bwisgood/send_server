@@ -6,6 +6,7 @@ import redis
 
 import os
 import sys
+
 sys.path.append('../')
 # sys.path.append('/root/send_server')
 
@@ -500,8 +501,10 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
             return send_server_pb2.GetLawyerLetterRespnse()
         now = datetime.strftime(datetime.now(), "%Y%m%d%H%M%S")
         base = os.path.dirname(os.path.dirname(__file__))
-        print('base:'+base)
+        print('base:' + base)
+        print(base == '')
         filename = "".join([user_name or "N", now, str(bill_id), ".docx"])
+        base = '/root/send_server' if not base else base
         temp_path = base + "/static/律师函.docx"
         to_path = base + "/static/generated/{}".format(filename)
         d = DocReplace(temp_path, to_path)
@@ -524,7 +527,7 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
             print(e)
             return send_server_pb2.GetLawyerLetterRespnse(code=int(RET.THIRDERR), msg='文件系统正在修复中，请联系技术人员', data=str(e))
         url = data["file_url"]
-        return send_server_pb2.GetLawyerLetterRespnse(code=int(RET.OK), msg='文件系统正在修复中，请联系技术人员',data=url)
+        return send_server_pb2.GetLawyerLetterRespnse(code=int(RET.OK), msg='文件系统正在修复中，请联系技术人员', data=url)
 
 
 def server():
