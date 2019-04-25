@@ -26,7 +26,7 @@ from models.task_models import Task, Emergency, Repair
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 _HOST = "0.0.0.0"
-_PORT = "19999"
+_PORT = "19998"
 REDIS_HOST = '0.0.0.0'
 REDIS_PORT = 6379
 redis_cli = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, decode_responses=True)
@@ -518,8 +518,12 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         }
         print(context)
         d.replace(context)
-        print("request: " + str(request))
-        return send_server_pb2.GetLawyerLetterRespnse()
+        try:
+            data = d.upload()
+        except:
+            return send_server_pb2.GetLawyerLetterRespnse(code=RET.THIRDERR, msg='文件系统正在修复中，请联系技术人员', data="")
+        url = data["file_url"]
+        return send_server_pb2.GetLawyerLetterRespnse(data=url)
 
 
 def server():

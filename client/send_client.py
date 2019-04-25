@@ -10,7 +10,7 @@ from send_server_util import send_server_pb2, send_server_pb2_grpc
 
 _HOST = '0.0.0.0'
 # _HOST = '39.106.101.198'
-_PORT = '19999'
+_PORT = '19998'
 
 
 def sen_message_test():
