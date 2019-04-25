@@ -520,10 +520,11 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         d.replace(context)
         try:
             data = d.upload()
-        except:
-            return send_server_pb2.GetLawyerLetterRespnse(code=RET.THIRDERR, msg='文件系统正在修复中，请联系技术人员', data="")
+        except Exception as e:
+            print(e)
+            return send_server_pb2.GetLawyerLetterRespnse(code=int(RET.THIRDERR), msg='文件系统正在修复中，请联系技术人员', data=str(e))
         url = data["file_url"]
-        return send_server_pb2.GetLawyerLetterRespnse(data=url)
+        return send_server_pb2.GetLawyerLetterRespnse(code=int(RET.OK), msg='文件系统正在修复中，请联系技术人员',data=url)
 
 
 def server():
