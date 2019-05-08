@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="fixed bug">
-      <change beforePath="$PROJECT_DIR$/requirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirment.txt" afterDir="false" />
+    <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="add path">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/rabbit_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/rabbit_worker.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/rabbit_msg_maker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -82,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirment.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -91,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/rabbit_worker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="226">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -106,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/send_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="60" column="28" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="28" />
+            <state relative-caret-position="48">
+              <caret line="2" selection-start-line="2" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -165,19 +166,20 @@
         <option value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/client/send_client.py" />
-        <option value="$PROJECT_DIR$/client/rabbit_worker.py" />
         <option value="$PROJECT_DIR$/client/rabbit_msg_maker.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
         <option value="$PROJECT_DIR$/server/send_server.py" />
         <option value="$PROJECT_DIR$/requirment.txt" />
+        <option value="$PROJECT_DIR$/asdasdasasd.py" />
+        <option value="$PROJECT_DIR$/client/rabbit_worker.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="123" />
-    <option name="y" value="78" />
-    <option name="width" value="1474" />
-    <option name="height" value="706" />
+    <option name="x" value="1" />
+    <option name="y" value="25" />
+    <option name="width" value="749" />
+    <option name="height" value="579" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -191,6 +193,11 @@
             <path>
               <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="send_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="send_server" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rabbit_msg_maker">
+  <component name="RunManager" selected="Python.rabbit_worker">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +253,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="doc_utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="asdasdasasd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="send_server" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,12 +261,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/send_server_util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asdasdasasd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,17 +375,17 @@
     <list>
       <item itemvalue="Python.send_server" />
       <item itemvalue="Python.send_client" />
-      <item itemvalue="Python.doc_utils" />
       <item itemvalue="Python.rabbit_worker" />
       <item itemvalue="Python.rabbit_msg_maker" />
+      <item itemvalue="Python.asdasdasasd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rabbit_msg_maker" />
         <item itemvalue="Python.rabbit_worker" />
+        <item itemvalue="Python.asdasdasasd" />
+        <item itemvalue="Python.rabbit_msg_maker" />
         <item itemvalue="Python.send_server" />
         <item itemvalue="Python.send_client" />
-        <item itemvalue="Python.doc_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +408,7 @@
       <workItem from="1556612496617" duration="4973000" />
       <workItem from="1557018721450" duration="597000" />
       <workItem from="1557108693782" duration="594000" />
-      <workItem from="1557282286996" duration="1184000" />
+      <workItem from="1557282286996" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bug">
       <created>1556160206984</created>
@@ -410,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556160206984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add path">
+      <created>1557284171900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557284171900</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33763000" />
+    <option name="totallyTimeSpent" value="36206000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,19 +443,19 @@
     <frame x="67" y="25" width="2289" height="1262" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
       <window_info id="Structure" order="1" weight="0.24988824" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49594596" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4955277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38193202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291592" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32826477" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50245863" side_tool="true" weight="0.3309481" />
-      <window_info anchor="bottom" x="639" y="486" width="1144" height="370" id="Terminal" order="9" sideWeight="0.49754134" visible="true" weight="0.3309481" />
+      <window_info anchor="bottom" x="639" y="486" width="1144" height="370" id="Terminal" order="9" sideWeight="0.49754134" weight="0.3309481" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32826477" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -481,7 +495,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug" />
+    <MESSAGE value="add path" />
+    <option name="LAST_COMMIT_MESSAGE" value="add path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,8 +563,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/send_server$rabbit_msg_maker.coverage" NAME="rabbit_msg_maker Coverage Results" MODIFIED="1557283039238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
-    <SUITE FILE_PATH="coverage/send_server$rabbit_worker.coverage" NAME="rabbit_worker Coverage Results" MODIFIED="1557283028567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+    <SUITE FILE_PATH="coverage/send_server$rabbit_worker.coverage" NAME="rabbit_worker Coverage Results" MODIFIED="1557285918349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
     <SUITE FILE_PATH="coverage/send_server$send_server.coverage" NAME="send_server Coverage Results" MODIFIED="1557283020868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/send_server$asdasdasasd.coverage" NAME="asdasdasasd Coverage Results" MODIFIED="1557285462527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/send_server$send_client.coverage" NAME="send_client Coverage Results" MODIFIED="1556175812908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
   </component>
   <component name="debuggerHistoryManager">
@@ -567,7 +583,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.emergency" />
     <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.community_feedback" />
     <entry file="dbDummy://dbtable:/e1fc09b5/eee9351f-0e13-4183-8f92-5a2d5da28dc6/ai_community_v3&amp;dot;1.room" />
     <entry file="file://$USER_HOME$/.virtualenvs/rpc_test/lib/python3.5/site-packages/grpc/_channel.py" />
@@ -769,30 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/send_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="60" column="28" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/rabbit_worker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/rabbit_msg_maker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -802,6 +793,30 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/rabbit_msg_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/send_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asdasdasasd.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/server/send_server.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -813,10 +828,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirment.txt">
+    <entry file="file://$PROJECT_DIR$/client/rabbit_worker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        <state relative-caret-position="226">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
