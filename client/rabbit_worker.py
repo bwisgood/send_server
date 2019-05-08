@@ -1,4 +1,7 @@
 import pika, json
+import sys
+
+sys.path.append('../')
 from client.send_client import FuncObj
 
 username = 'guest'  # 指定远程rabbitmq的用户名密码
