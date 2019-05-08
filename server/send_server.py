@@ -452,7 +452,7 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         # 获取要发送的信息的数据
         template_data = self.get_template_data(template_id, **id_dict)
         if not template_data:
-            send_server_pb2.SendTemplateMessageResponse(code=int(RET.PARAMERR), msg='查询错误', data='')
+            return send_server_pb2.SendTemplateMessageResponse(code=int(RET.PARAMERR), msg='查询错误', data='')
         miniprogram = {
             'appid': community_app_id,
             # 要跳转的小程序页面
