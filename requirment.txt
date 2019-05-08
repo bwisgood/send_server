@@ -20,6 +20,7 @@ lxml==4.3.3
 MarkupSafe==1.1.1
 munch==2.3.2
 oss2==2.6.1
+pika==1.0.1
 protobuf==3.7.1
 pycryptodome==3.8.1
 PyMySQL==0.9.3

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="fixed bug">
-      <change afterPath="$PROJECT_DIR$/client/rabbit_msg_maker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/rabbit_worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/send_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/send_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirment.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/send_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="270" column="81" lean-forward="true" selection-start-line="270" selection-start-column="67" selection-end-line="270" selection-end-column="81" />
+            <state relative-caret-position="209">
+              <caret line="426" selection-start-line="426" selection-end-line="426" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirment.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -157,14 +162,14 @@
         <option value="$PROJECT_DIR$/send_server_util/alioss.py" />
         <option value="$PROJECT_DIR$/models/user_models.py" />
         <option value="$PROJECT_DIR$/server/sadad.py" />
-        <option value="$PROJECT_DIR$/requirment.txt" />
         <option value="$PROJECT_DIR$/send_server_util/doc_utils.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server/send_server.py" />
         <option value="$PROJECT_DIR$/client/send_client.py" />
         <option value="$PROJECT_DIR$/client/rabbit_worker.py" />
         <option value="$PROJECT_DIR$/client/rabbit_msg_maker.py" />
         <option value="$PROJECT_DIR$/models/__init__.py" />
+        <option value="$PROJECT_DIR$/server/send_server.py" />
+        <option value="$PROJECT_DIR$/requirment.txt" />
       </list>
     </option>
   </component>
@@ -186,21 +191,6 @@
             <path>
               <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="send_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="send_server" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="send_server" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="send_server" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,7 +401,7 @@
       <workItem from="1556612496617" duration="4973000" />
       <workItem from="1557018721450" duration="597000" />
       <workItem from="1557108693782" duration="594000" />
-      <workItem from="1557282286996" duration="617000" />
+      <workItem from="1557282286996" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bug">
       <created>1556160206984</created>
@@ -424,7 +414,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33196000" />
+    <option name="totallyTimeSpent" value="33763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -439,19 +429,19 @@
     <frame x="67" y="25" width="2289" height="1262" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
       <window_info id="Structure" order="1" weight="0.24988824" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.49594596" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38193202" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38193202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291592" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32826477" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50245863" side_tool="true" weight="0.3309481" />
-      <window_info anchor="bottom" x="639" y="486" width="1144" height="370" id="Terminal" order="9" sideWeight="0.49754134" weight="0.3309481" />
+      <window_info anchor="bottom" x="639" y="486" width="1144" height="370" id="Terminal" order="9" sideWeight="0.49754134" visible="true" weight="0.3309481" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32826477" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -557,10 +547,24 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/send_server$rabbit_msg_maker.coverage" NAME="rabbit_msg_maker Coverage Results" MODIFIED="1557282795530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
-    <SUITE FILE_PATH="coverage/send_server$rabbit_worker.coverage" NAME="rabbit_worker Coverage Results" MODIFIED="1557282791208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
-    <SUITE FILE_PATH="coverage/send_server$send_server.coverage" NAME="send_server Coverage Results" MODIFIED="1557282781454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/send_server$rabbit_msg_maker.coverage" NAME="rabbit_msg_maker Coverage Results" MODIFIED="1557283039238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+    <SUITE FILE_PATH="coverage/send_server$rabbit_worker.coverage" NAME="rabbit_worker Coverage Results" MODIFIED="1557283028567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+    <SUITE FILE_PATH="coverage/send_server$send_server.coverage" NAME="send_server Coverage Results" MODIFIED="1557283020868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/send_server$send_client.coverage" NAME="send_client Coverage Results" MODIFIED="1556175812908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>session.query(User.name, Emergency.title, Emergency.add_time, Emergency.thinking).filter(                     Emergency.id == emergency_id,Emergency.add_user == User.id).first()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>session.query(User.name, Emergency.title, Emergency.add_time, Emergency.thinking).filter(                     Emergency.id == emergency_id,                     Emergency.add_user == User.id).first()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="dbDummy://dbtable:/e1fc09b5/3cdb1d93-3881-48e1-bf34-cacac949bd76/ai_community_v3.emergency" />
@@ -710,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirment.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/send_server/lib/python3.5/site-packages/flask/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -808,11 +805,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/send_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="270" column="81" lean-forward="true" selection-start-line="270" selection-start-column="67" selection-end-line="270" selection-end-column="81" />
+        <state relative-caret-position="209">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="11" lean-forward="true" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
         </state>
       </provider>
     </entry>
