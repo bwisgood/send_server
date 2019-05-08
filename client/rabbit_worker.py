@@ -23,6 +23,7 @@ except Exception:
 username = 'guest'  # 指定远程rabbitmq的用户名密码
 pwd = 'guest'
 if if_address == "172.17.121.248":
+    print(if_address)
     pwd = '12345'
 
 user_pwd = pika.PlainCredentials(username, pwd)
