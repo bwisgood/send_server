@@ -9,22 +9,22 @@ import fcntl
 import struct
 
 
-def get_ip_address(ifname):
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    return socket.inet_ntoa(fcntl.ioctl(s.fileno(), 0x8915, struct.pack('256s', ifname[:15]))[20:24])
-
-
-try:
-    ifname = 'eth0'.encode()
-    if_address = get_ip_address(ifname)
-except Exception:
-    if_address = '0.0.0.0'
+# def get_ip_address(ifname):
+#     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+#     return socket.inet_ntoa(fcntl.ioctl(s.fileno(), 0x8915, struct.pack('256s', ifname[:15]))[20:24])
+#
+#
+# try:
+#     ifname = 'eth0'.encode()
+#     if_address = get_ip_address(ifname)
+# except Exception:
+#     if_address = '0.0.0.0'
 
 username = 'guest'  # 指定远程rabbitmq的用户名密码
 pwd = 'guest'
-if if_address == "172.17.121.248":
-    print(if_address)
-    pwd = '12345'
+# if if_address == "172.17.121.248":
+#     print(if_address)
+#     pwd = '12345'
 
 user_pwd = pika.PlainCredentials(username, pwd)
 s_conn = pika.BlockingConnection(pika.ConnectionParameters('127.0.0.1', credentials=user_pwd))  # 创建连接
