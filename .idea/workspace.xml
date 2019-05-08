@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef03254-942d-443e-8c85-0cff69611f40" name="Default" comment="add path">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/rabbit_worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/rabbit_worker.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/rabbit_worker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="322">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -193,11 +192,6 @@
             <path>
               <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
               <item name="send_server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="send_server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="send_server" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +402,7 @@
       <workItem from="1556612496617" duration="4973000" />
       <workItem from="1557018721450" duration="597000" />
       <workItem from="1557108693782" duration="594000" />
-      <workItem from="1557282286996" duration="3627000" />
+      <workItem from="1557282286996" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="fixed bug">
       <created>1556160206984</created>
@@ -424,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557284171900</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add path">
+      <created>1557285929784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557285929784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36206000" />
+    <option name="totallyTimeSpent" value="36674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,12 +444,12 @@
     <frame x="67" y="25" width="2289" height="1262" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2820742" />
       <window_info id="Structure" order="1" weight="0.24988824" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4955277" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4955277" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38193202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -830,8 +831,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/rabbit_worker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="322">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
