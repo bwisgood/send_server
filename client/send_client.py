@@ -43,7 +43,7 @@ class FuncObj():
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
             template_id = "新报修通知"
             if not all((user_id, repair_id)):
-                repair_id = 2
+                repair_id = 22
                 user_id = 102
             page_path = ''
             id_json = json.dumps({"repair_id": repair_id})
@@ -58,7 +58,7 @@ class FuncObj():
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
             template_id = "物业管理通知"
             if not all((user_id, emergency_id)):
-                emergency_id = 46
+                emergency_id = 2
                 user_id = 102
             page_path = ''
             id_json = json.dumps({"emergency_id": emergency_id})
@@ -73,7 +73,7 @@ class FuncObj():
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
             template_id = "物业管理通知"
             if not all((user_id, task_id)):
-                task_id = 3128
+                task_id = 20
                 user_id = 102
             page_path = ''
             id_json = json.dumps({"task_id": task_id})
@@ -87,7 +87,7 @@ class FuncObj():
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
             template_id = "意见反馈提醒"
-            if not all((user_id or community_feedback_id)):
+            if not all((user_id , community_feedback_id)):
                 user_id = 102
                 community_feedback_id = 1
             page_path = ''
@@ -102,7 +102,7 @@ class FuncObj():
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
             template_id = "物业电子投票通知"
-            if not all((user_id or vote_id)):
+            if not all((user_id , vote_id)):
                 user_id = 102
                 vote_id = 1
             page_path = ''
@@ -129,16 +129,13 @@ if __name__ == '__main__':
 
 
     fun_obj = FuncObj()
-    # fun_obj.get_perform(3)
-    # sen_message_test()
-    # debt_remind_test()
+    fun_obj.get_perform(3)
+    # fun_obj.sen_message_test()
+    fun_obj.debt_remind_test()
     fun_obj.repair_remind_test()
-    # emergency_remind_test()
-    # work_remind_test()
-    # feedback_remind_test()
-    #
-    # feedback_remind_test()
-
+    fun_obj.emergency_remind_test()
+    fun_obj.work_remind_test()
+    fun_obj.feedback_remind_test()
     # channel = grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT))
     # client = send_server_pb2_grpc.GreeterStub(channel=channel)
     # response = client.SayHello(models_pb2.HelloRequest(name='you', message='hey guys'))
