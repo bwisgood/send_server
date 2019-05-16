@@ -67,29 +67,69 @@ class WxUtils(object):
 
         return access_token if access_token else None
 
+    def get_template_id(self, title):
+
+        template_id = redis_cli.get("template_id_{}_{}".format(self.company_id, title))
+        if template_id and template_id != 'None':
+            return template_id
+        access_token = self.get_access_token()
+        url = "https://api.weixin.qq.com/cgi-bin/template/get_all_private_template?access_token={}".format(
+            access_token)
+        resp = requests.get(url).content.decode()
+        list_temps = json.loads(resp).get('template_list')
+        for temp in list_temps:
+            temp_title = temp.get("title")
+            print(temp)
+            if temp_title == title:
+                temp_id = temp.get("template_id")
+                redis_cli.set("template_id_{}_{}".format(self.company_id, title), temp_id)
+                return temp_id
+
 
 class TemplateData:
+    # template_id_func_dict = {
+    #     # 物业费缴费提醒
+    #     "-Qk6HzmI9NseDlZ6D_AGhVdA7IBZYQ8b0m6muUlkAF4": "finance_remid",
+    #     # 物业管理通知
+    #     "hVmPaXBnI-C4_lzduy4jsM1Te33lcuiz6jWzvNwsCG8": "work_remind",
+    #     # 物业账单通知
+    #     "ODPeSmbLTwIjA25Rft0NfVcNLrt6LDMVqZLD5i4khr8": "bill_remind",
+    #     # 新报修通知
+    #     "iRIoLPbosbaQ6ExqyVJ6COGawoIGQ_r29cElxAox6wU": "repair_remind",
+    #     # 账单欠款通知
+    #     "xvIb4DxhBDzZcmd746cdo6LOncy4c7JQto7zQLt-L5w": "debt_remind",
+    #     # 商品发货通知
+    #     "-AJSXplHwCNlDY4Je3sYY0P_HYfkebuUbRkxOs3s4vo": "goods_send_remind",
+    #     # 推荐成功通知
+    #     "C5dqZvacTVrdMXUyKngjdhf6Dop15NsSFUugovnY6VQ": "recommend_remind",
+    #     # 订阅课程开课提醒
+    #     "GAxhLJmFux4Y-4MICMe6jx0NKQ38tSFzISAYFoQDTaA": "class_begin_remind",
+    #     # 意见反馈提醒
+    #     "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU": "feedback_remind",
+    #     # 投票提醒
+    #     "52DtLHs2t4No5Dcohw1LLHkEr-T0Ltq27XrNUWa2-MA": "vote_remind"
+    # }
     template_id_func_dict = {
         # 物业费缴费提醒
-        "-Qk6HzmI9NseDlZ6D_AGhVdA7IBZYQ8b0m6muUlkAF4": "finance_remid",
+        "物业费缴费提醒": "finance_remid",
         # 物业管理通知
-        "hVmPaXBnI-C4_lzduy4jsM1Te33lcuiz6jWzvNwsCG8": "work_remind",
+        "物业管理通知": "work_remind",
         # 物业账单通知
-        "ODPeSmbLTwIjA25Rft0NfVcNLrt6LDMVqZLD5i4khr8": "bill_remind",
+        "物业账单通知": "bill_remind",
         # 新报修通知
-        "iRIoLPbosbaQ6ExqyVJ6COGawoIGQ_r29cElxAox6wU": "repair_remind",
+        "新报修通知": "repair_remind",
         # 账单欠款通知
-        "xvIb4DxhBDzZcmd746cdo6LOncy4c7JQto7zQLt-L5w": "debt_remind",
+        "账单欠款通知": "debt_remind",
         # 商品发货通知
-        "-AJSXplHwCNlDY4Je3sYY0P_HYfkebuUbRkxOs3s4vo": "goods_send_remind",
+        "商品发货通知": "goods_send_remind",
         # 推荐成功通知
-        "C5dqZvacTVrdMXUyKngjdhf6Dop15NsSFUugovnY6VQ": "recommend_remind",
+        "推荐成功通知": "recommend_remind",
         # 订阅课程开课提醒
-        "GAxhLJmFux4Y-4MICMe6jx0NKQ38tSFzISAYFoQDTaA": "class_begin_remind",
+        "订阅课程开课提醒": "class_begin_remind",
         # 意见反馈提醒
-        "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU": "feedback_remind",
-        # 投票提醒
-        "52DtLHs2t4No5Dcohw1LLHkEr-T0Ltq27XrNUWa2-MA": "vote_remind"
+        "意见反馈提醒": "feedback_remind",
+        # 物业电子投票通知
+        "物业电子投票通知": "vote_remind"
     }
 
     def get_data(self, template_id, **kwargs):
@@ -475,7 +515,7 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         # 用户ｉｄ
         user_id = request.user_id
         # 模板消息ｉｄ
-        template_id = request.template_id
+        template_title = request.template_id
         page_path = request.page_path
         session = get_session()
         # 获取公司id ，服务号appid，app_secret
@@ -499,7 +539,8 @@ class SendServer(send_server_pb2_grpc.SendServiceServicer):
         access_token = wx_utils.get_access_token()
         id_dict = json.loads(request.id_json)
         # 获取要发送的信息的数据
-        template_data = self.get_template_data(template_id, **id_dict)
+        template_id = wx_utils.get_template_id(template_title)
+        template_data = self.get_template_data(template_title, **id_dict)
         if not template_data:
             return send_server_pb2.SendTemplateMessageResponse(code=int(RET.PARAMERR), msg='查询错误', data='')
         miniprogram = {

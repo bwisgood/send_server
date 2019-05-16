@@ -26,7 +26,7 @@ class FuncObj():
         """账单欠款通知"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "xvIb4DxhBDzZcmd746cdo6LOncy4c7JQto7zQLt-L5w"
+            template_id = "账单欠款通知"
             if not all((user_id, bill_id)):
                 bill_id = 30
                 user_id = 102
@@ -41,7 +41,7 @@ class FuncObj():
         """新报修通知"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "iRIoLPbosbaQ6ExqyVJ6COGawoIGQ_r29cElxAox6wU"
+            template_id = "新报修通知"
             if not all((user_id, repair_id)):
                 repair_id = 2
                 user_id = 102
@@ -56,7 +56,7 @@ class FuncObj():
         """应急情况处理通知"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "hVmPaXBnI-C4_lzduy4jsM1Te33lcuiz6jWzvNwsCG8"
+            template_id = "物业管理通知"
             if not all((user_id, emergency_id)):
                 emergency_id = 46
                 user_id = 102
@@ -71,7 +71,7 @@ class FuncObj():
         """任务提醒通知"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "hVmPaXBnI-C4_lzduy4jsM1Te33lcuiz6jWzvNwsCG8"
+            template_id = "物业管理通知"
             if not all((user_id, task_id)):
                 task_id = 3128
                 user_id = 102
@@ -86,7 +86,7 @@ class FuncObj():
         """意见反馈提醒"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU"
+            template_id = "意见反馈提醒"
             if not all((user_id or community_feedback_id)):
                 user_id = 102
                 community_feedback_id = 1
@@ -98,10 +98,10 @@ class FuncObj():
         print("received: " + str(response))
 
     def vote_remind_test(self,user_id,vote_id):
-        """投票提醒"""
+        """物业电子投票通知"""
         with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
             client = send_server_pb2_grpc.SendServiceStub(channel=channel)
-            template_id = "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU"
+            template_id = "物业电子投票通知"
             if not all((user_id or vote_id)):
                 user_id = 102
                 vote_id = 1
@@ -129,10 +129,10 @@ if __name__ == '__main__':
 
 
     fun_obj = FuncObj()
-    fun_obj.get_perform(3)
+    # fun_obj.get_perform(3)
     # sen_message_test()
     # debt_remind_test()
-    # repair_remind_test()
+    fun_obj.repair_remind_test()
     # emergency_remind_test()
     # work_remind_test()
     # feedback_remind_test()
