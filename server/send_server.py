@@ -23,6 +23,7 @@ from models.user_models import Community
 from models.user_models import Company
 from models.bill_models import Bill, AmountBill
 from models.estate_models import Room
+from models.vote_models import Vote
 from models.task_models import Task, Emergency, Repair
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
@@ -87,6 +88,8 @@ class TemplateData:
         "GAxhLJmFux4Y-4MICMe6jx0NKQ38tSFzISAYFoQDTaA": "class_begin_remind",
         # 意见反馈提醒
         "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU": "feedback_remind",
+        # 投票提醒
+        "52DtLHs2t4No5Dcohw1LLHkEr-T0Ltq27XrNUWa2-MA": "vote_remind"
     }
 
     def get_data(self, template_id, **kwargs):
@@ -368,6 +371,52 @@ class TemplateData:
             },
             "remark": "请尽快联系客户。",
         }
+        return data
+
+    def vote_remind(self, session, vote_id):
+        """
+        物业电子投票通知
+        :param vote_id: 投票id
+        :return:
+        {{first.DATA}}
+        投票议题：{{keyword1.DATA}}
+        投票内容：{{keyword2.DATA}}
+        投票范围：{{keyword3.DATA}}
+        开始时间：{{keyword4.DATA}}
+        结束时间：{{keyword5.DATA}}
+        {{remark.DATA}}
+        """
+        try:
+            community_name, title, content, total_user, total_area, start_time, end_time = session.query(
+                Community.name, Vote.title, Vote.content, Vote.total_user, Vote.total_area, Vote.start_time,
+                Vote.end_time
+            ).filter(
+                Vote.id == vote_id,
+                Community.id == Vote.community_id
+            ).first()
+        except:
+            return {}
+
+        data = {
+            "first": community_name,
+            "keyword1": {
+                "value": title,
+            },
+            "keyword2": {
+                "value": content,
+            },
+            "keyword3": {
+                "value": "{}共计{}人".format(total_area, total_user),
+            },
+            "keyword4": {
+                "value": start_time.strftime("%Y-%m-%d %H:%M:%S"),
+            },
+            "keyword5": {
+                "value": end_time.strftime("%Y-%m-%d %H:%M:%S"),
+            },
+            "remark": "请在结束时间前提交您的意见。",
+        }
+
         return data
 
 

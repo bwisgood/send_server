@@ -97,6 +97,23 @@ class FuncObj():
                                                          id_json=id_json))
         print("received: " + str(response))
 
+    def vote_remind_test(self,user_id,vote_id):
+        """投票提醒"""
+        with grpc.insecure_channel("{0}:{1}".format(_HOST, _PORT)) as channel:
+            client = send_server_pb2_grpc.SendServiceStub(channel=channel)
+            template_id = "Qe4K360d6zczLePcZoIvgIMsUPewlYZE4tMP5t3ROnU"
+            if not all((user_id or vote_id)):
+                user_id = 102
+                vote_id = 1
+            page_path = ''
+            id_json = json.dumps({"vote_id": vote_id})
+            response = client.SendTemplateMessage(
+                send_server_pb2.SendTemplateMessageParam(user_id=user_id, template_id=template_id, page_path=page_path,
+                                                         id_json=id_json))
+        print("received: " + str(response))
+
+
+
     def get_perform(self, bill_id):
         """获取律师函"""
         if not bill_id:
