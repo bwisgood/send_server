@@ -28,7 +28,7 @@ from models.task_models import Task, Emergency, Repair
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
 _HOST = "0.0.0.0"
-_PORT = "19998"
+_PORT = "19999"
 REDIS_HOST = '0.0.0.0'
 REDIS_PORT = 6379
 redis_cli = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, decode_responses=True)
