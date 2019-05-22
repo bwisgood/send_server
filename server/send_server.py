@@ -446,7 +446,7 @@ class TemplateData:
                 "value": content,
             },
             "keyword3": {
-                "value": "{}共计{}人".format(total_area, total_user),
+                "value": "总面积{}平米共计{}人".format(total_area/100, total_user),
             },
             "keyword4": {
                 "value": start_time.strftime("%Y-%m-%d %H:%M:%S"),
