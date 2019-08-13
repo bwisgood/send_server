@@ -11,7 +11,7 @@ engine = create_engine(
 #     r'mysql+pymysql://root:mysql@127.0.0.1:3306/ai_community_v3',
 #     encoding='utf-8')
 # engine = create_engine(
-    r'mysql+pymysql://root:Yuanjia2018@rm-2ze33fuactgx09184oo.mysql.rds.aliyuncs.com:3306/ai_community_v4',
+    r'mysql+pymysql://root:tycissb.com:3306/ai_community_v4',
     encoding='utf-8')
 
 Base = declarative_base()
